@@ -1,0 +1,74 @@
+.bannerBg {
+  background-color: #2c5fa5;
+  padding: 40px;
+}
+.primarycolor {
+  color: #2c5fa5;
+  text-align: left;
+}
+@media only screen and (max-width: 668px) {
+  .primarycolor {
+    text-align: justify;
+    padding: none !important;
+  }
+}
+.headingTag {
+  font-size: 55px;
+  text-align: left;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.afterbanner {
+  background: rgba(234, 249, 252, 0.774);
+}
+.afterbanner h2 {
+  font-size: 35px;
+  line-height: 45px;
+  margin-right: 10px;
+  text-align: left;
+}
+.afterbannePText {
+  line-height: 30px;
+  margin-bottom: 0px;
+  color: rgb(88, 88, 88);
+}
+.productCM {
+  background-image: url(https://milvikbd.com/about-bg.svg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.contact-heading {
+  margin-top: 10%;
+  margin-left: 10%;
+}
+.contact-btn {
+  margin-left: 10%;
+}
+.contactTag {
+  font-size: 70px;
+  color: white;
+}
+.productImg {
+  width: 20%;
+}
+@media only screen and (max-width: 688px) {
+  .productImg {
+    width: 100%;
+    margin-bottom: -20px;
+    margin-top: 3%;
+  }
+  .contact-form {
+    width: 90%;
+    margin-top: 2%;
+  }
+  .contact-heading {
+    margin-top: 2%;
+    margin-left: 2%;
+  }
+  .contactTag {
+    font-size: 50px;
+    color: white;
+  }
+}
