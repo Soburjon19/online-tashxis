@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="container">
           <div className="row">
             <div className="container col-md-4 col-lg-4 col-sm-12">
-              <img width="90px" className="logo shadow" src={logo} alt="" />
+              <img width="190px" className="logo shadow" src={logo} alt="" />
               {/* <p className="text-start mt-2 ">
                 Click Medic (known globally as BIMA) uses mobile technology to
                 deliver affordable insurance and health products to underserved
